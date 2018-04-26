@@ -1,0 +1,282 @@
+
+    
+
+/*
+h1{
+    color: #ff0000;
+    background-color: #7fffd4;
+    font-weight: bold;
+    text-align: center;
+    font-family:merriweather;
+    
+  */
+#parent1 a {
+    color: #ff0000;
+    background-color: #7fffd4;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+    display: list-item;
+    list-style-type: none;
+    text-decoration: none;
+    display:block;
+}
+    
+.para{
+    text-indent:5%;
+}
+    
+
+/*i am lost*/
+body {
+    font-family:merriweather;
+    border-color: #7fffd4;
+    margin:auto;
+    padding:20px;
+    border:20px;
+   backface-visibility: visible;
+   background-image: url(../images/background_pebbles.jpg) 
+    
+}
+
+.lien{
+    text-decoration:none;
+    color:#ff0000;
+}
+
+.titlecolor{
+       color:#daa520;
+       background-color:#7fffd4; 
+       background-position: center;
+       background-size: 40%;
+       text-align: center;
+}
+
+    
+#nb {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #ff0000;
+    border-bottom-width: thick;
+    border-style:none solid none solid;
+    text-align:center;
+}
+
+/* want the 2 columns in the middle of the page*/
+#firstlist{
+    column-count: 2;
+    column-gap: 10px;
+    margin-left: 25%;
+    margin-right: 10%;
+   
+    
+}
+        
+#intro {
+    border-left-color: brown;
+    border-right-color: brown;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+#id {
+    font-style: italic;
+    font-weight: bold;
+}
+/* For any raison my background image is not working*/
+
+
+
+.book{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#warning{
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: #ff0000;
+    border-style: dashed;
+    text-align:center
+}
+    
+#choix{
+    text-indent:15px;
+}
+.fruit{
+    display: flex;
+    margin:20px 10px;
+      padding-bottom: 10px;
+      padding-top: 10px; 
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center; 
+}
+/*
+.fruit {
+    float: inherit;
+   border-style: none;
+}
+
+
+
+For any raison my background image is not working
+.flex-container {
+    display: flex;
+    flex-direction:column;
+    float:left;
+}
+need to center h1 vertically*/
+
+
+.titre{
+  margin:20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+  color:#ff0000;
+   background-color:#ba55d3;
+  }
+
+#coco{
+    display: flex;
+    flex-direction:row;
+    flex-basis:auto;
+    justify-content:space-between;
+}
+
+
+#equip{
+      display: flex;
+      margin:20px 10px;
+      padding-bottom: 10px;
+      padding-top: 10px; 
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; 
+}
+    /*
+    display: flex;
+    flex-direction:row;
+    flex-basis:auto;
+    justify-content:space-between;*/
+
+
+#fast{
+    column-count: 2;
+    column-gap: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+.epices{
+   margin:20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+#asuivre{
+    color: #ff4500;
+    font-size: 500%;
+    font-stretch: expanded;
+}
+
+
+/*
+.content{
+    justify-content:space-between;
+    */
+
+
+
+.mango{
+    margin:auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-family: "lobster";
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding:10px;
+}
+
+#cabinet{
+      justify-content:center;
+      margin-left: 25%;
+      padding-top: 10px;
+      border-bottom-width: thick;
+}
+
+
+#nuts{
+    display: inline-block;
+      margin-left: 25%;
+      padding-top: 10px;
+}
+
+
+
+.anis{
+  margin:20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center; 
+}
+
+.caption{
+    color: #ff0000;
+   
+}
+/*
+.utensils{
+     display: flex;
+     flex-direction:row;
+     flex-wrap:wrap;
+    justify-content:center;
+   border-style: none;*/
+
+.utensils{
+    display: flex;
+    margin:20px 10px;
+      padding-bottom: 10px;
+      padding-top: 10px; 
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center; 
+}
+
+#soup{
+    
+    color: green;
+    text-decoration: blink
+    
+}
+
+.storage{
+        display: flex;
+    margin:20px 10px;
+      padding-bottom: 10px;
+      padding-top: 10px; 
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center; 
+}
